@@ -13,6 +13,8 @@ public class Sub4_MathodTypeTest {
 	// main 메서드 : 자바 프로그램의 실행함수 (최초 진입점)
 	public static void main(String[] args) {
 		
+		
+		// type1 호출
 		double y1 = type1(0.1);
 		double y2 = type1(1.2);
 		
@@ -29,14 +31,29 @@ public class Sub4_MathodTypeTest {
 		System.out.println("result : "+result);
 	
 		// type4 호출
+		
 	}
 	
 	// type1 : 매개변수 O, 리턴값 O
 	public static double type1(double x) {
+			double y = x + 3.14;
+			retyrn y;
+	}
 	
 	
 	// type2 : 매개변수 O, 리턴값 X
-	
+	public static void type2(boolean[] status) {
+		
+		if(status) {
+			
+			int n1 = 1;
+			int n2 = 2;
+			
+			if(n1 > n2 ) {
+		}
+	}
+		
+	}
 	
 	
 	
@@ -56,7 +73,7 @@ public class Sub4_MathodTypeTest {
 			
 			
 		// type4 : 매개변수X, 리턴값X
-		publec static void type4() {
+		public static void type4() {
 			double result = type1(10.01);
 			
 		
@@ -93,7 +110,7 @@ public class Sub4_MathodTypeTest {
 		}
 	
 	// type4 : 매개변수X, 리턴값X
-		publec static void type4() {
+		public static void type4() {
 			double result = type1(10.01);
 			
 	}
