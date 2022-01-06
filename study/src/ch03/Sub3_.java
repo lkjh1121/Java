@@ -4,6 +4,7 @@ package ch03;
  * 이름 : 김재현
  * 내용 : 자바 반복문 while 실습하기 교재 p92
  */
+
 public class Sub3_ {
 	// 1부터 10까지 합
 	
