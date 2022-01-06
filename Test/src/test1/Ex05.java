@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Ex05 {
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in)
+		Scanner sc = new Scanner(System.in);
 				
 		System.out.println("점수 입력 : ");
 		int score = sc.nextInt();
@@ -36,14 +36,11 @@ public class Ex05 {
 		case 6:
 			System.out.println("D 입니다.");
 			break;
-		
+		default:
+			System.out.println("F 입니다.");
+			break;
 		}
-			
-		}
-		
-		
-		
-		
+			sc.close();
 	}
 
 }
