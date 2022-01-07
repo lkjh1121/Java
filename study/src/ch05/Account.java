@@ -1,8 +1,9 @@
 package ch05;
 
 public class Account {
-	private ->  public
-	// 속성(필드) : 무조건 캡슐화(private) 적용한다.
+	// 속성(필드) :
+	//  - 무조건 캡슐화(private) 적용한다.
+	//  - 상속관계에서는 자식 클래스에서 참조 할 수 있도록 protected로 선언
 	private String bank;
 	private String id;
 	private String name;

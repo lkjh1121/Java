@@ -1,26 +1,34 @@
 package ch03;
+
 /*
  * 날짜 : 2022/01/04 
  * 이름 : 김재현
  * 내용 : 자바 반복문 while 실습하기 교재 p92
  */
-
-public class Sub3_ {
-	// 1부터 10까지 합
-	
-	
-	while문
+public class Sub3_whileTest {
 		public static void main(String[] args) {
+		
+			// 1부터 10까지 합
+			int sum = 0;
+			int k = 1;
+			
+			while (k <= 10) {
+				sum += k;
+				k++;
+				
+			}
 		
 		System.out.println("1부터 10까지 합 : "+sum);
 		
-		// do ~ while문
+		// do ~ while문 : 최초 1번은 무조건 실행하는 반복문
 		int total = 0;
 		int i = 1;
 		
 		do {
-			if(i%2 == 0) {
-				total += i;
+			
+			
+				if(i%2 == 0) {
+					total += i;
 			}
 				
 				i++;
@@ -41,7 +49,7 @@ public class Sub3_ {
 			num++;
 		}
 		
-		System.out.println("5와 7의 최소공배수 : "num);
+		System.out.println("5와 7의 최소공배수 : "+num);
 		
 		// continue
 		int tot = 0;
@@ -49,13 +57,14 @@ public class Sub3_ {
 		
 		while( j <= 10) {
 			
-			j++;
+				j++;
 			
-			if( j%2 == 1 ) {
-				continue; // 반복문 처음으로 이동
-			}
-			tot += j;
-		}
+				if( j%2 == 1 ) {
+						continue; // 반복문 처음으로 이동
+				}
+				
+				tot += j;
+		}	
 		
 		System.out.println("1부터 10까지 짝수합 : "+tot);
 		
