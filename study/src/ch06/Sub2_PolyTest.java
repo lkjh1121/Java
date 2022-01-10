@@ -14,16 +14,16 @@ public class Sub2_PolyTest {
 	
 		public static void main(String[] args) {
 		
-			Animal eagle = new Eagle();
-			Animal lion = new Lion();
-			Animal shark = new Shark();		
+				Animal eagle = new Eagle();
+				Animal lion = new Lion();
+				Animal shark = new Shark();		
 		
-			eagle.move();
-			lion.move();
-			shark.move();
+				eagle.move();
+				lion.move();
+				shark.move();
 		
-			eagle.hunt();
-			lion.hunt();
-			shark.hunt();
+				eagle.hunt();
+				lion.hunt();
+				shark.hunt();
 	}
 }

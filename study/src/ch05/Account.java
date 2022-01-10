@@ -7,7 +7,7 @@ public class Account {
 	private String bank;
 	private String id;
 	private String name;
-	private int balance;
+	protected int balance;
 	
 	// 생성자(Constructor) : 객체 생성할 때 멤버변수를 초기화하는 메서드
 	public Account(String bank, String id, String name, int balance) {

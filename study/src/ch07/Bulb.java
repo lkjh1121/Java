@@ -2,10 +2,10 @@ package ch07;
 
 public class Bulb {
 	
-	public void lighOn() {
-		System.out.println("Àü±¸ ºÒ ÄÑÁü...");
+	public void lightOn() {
+		System.out.println("ì „êµ¬ ë¶ˆ ì¼œì§...");
 	}
-	public void lighOff() {
-		System.out.println("Àü±¸ ºÒ ²¨Áü...");
+	public void lightOff() {
+		System.out.println("ì „êµ¬ ë¶ˆ êº¼ì§...");
 	}
 }
