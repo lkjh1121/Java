@@ -14,8 +14,6 @@ public class P70 {
 		String weight = 75.5 + "";
 		System.out.println("제 몸무게는 " + weight + "kg입니다.");
 		
-		int ageInt = 30;          // 정수
-		String ageStr = "30";     // 문자열
 	}
 
 }
