@@ -3,7 +3,8 @@ package ch06;
 public class P108 {
 	
 	public static void main(String[] args) {
-	
+		
+		
 		int[] arrInt;
 		int arrInt2[] = null;
 		
