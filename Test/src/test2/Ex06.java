@@ -1,4 +1,7 @@
 package test2;
+
+import java.util.Scanner;
+
 /*
  * 날짜 : 2022/01/06
  * 이름 : 김재현
