@@ -26,9 +26,9 @@ public class StockAccount extends Account {
 	
 	public void show() {
 		System.out.println("===================");
-		System.out.println("증권사 : "+bank);
-		System.out.println("계좌번호 : "+id);
-		System.out.println("입금주 : "+name);
+	//	System.out.println("증권사 : "+bank);
+		//System.out.println("계좌번호 : "+id);
+		//System.out.println("입금주 : "+name);
 		System.out.println("현재잔액 : "+balance);
 		System.out.println("주식종목 : "+stock);
 		System.out.println("수량 : "+amount);
